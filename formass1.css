@@ -1,0 +1,27 @@
+form{
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 30px white;
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+}
+label{
+    color: white;
+}
+input{
+    padding: 4px;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 30px white;
+    background-color:white;
+    opacity: 0.3;
+    width: 100%;
+    box-sizing: border-box;
+}
+button{
+    background-color: white;
+    border-radius: 20px;
+    padding: 4px;
+    box-shadow: inset 0px 0px 30px white;
+    width: 100%;
+    opacity: 0.5;
+}
