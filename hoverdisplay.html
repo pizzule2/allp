@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .forall{
+                background: blue;
+            }
+            .forall li{
+                list-style-type: none;
+                display: inline-block;
+            }
+            img{
+                width: 30px;
+                margin-left: 20px;
+            }
+            li{
+                padding: 10px;
+                color: white;
+            }
+            button{
+                background: lightgreen;
+                border-radius: 5px;
+            }
+            h4{
+                padding: 10px;
+                color: white;
+                display: inline-block;
+            }
+            .up ul li{
+                margin: 5px 0px;
+                background: red;
+                text-align: center;
+                color: white;
+                display: block;
+            }
+            .up ul{
+                background: green;
+                margin: 0px;
+                padding: 3px;
+                visibility: hidden;
+                position: absolute;
+                list-style-type: none;
+                width: 5%;
+            }
+            .up:hover ul{
+                visibility: visible;
+            }
+            .up{
+                display: inline-block;
+            }
+            .down{
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            <img src="image/valuemax.png" width="50">
+            <u>valuemax</u>
+        </h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="microsoftform.html">About</a></li>
+            <li><a href="listform.html">contact</a></li>
+            <li><a href="form.html">service</a></li>
+            <li><a href="borderass.html">Register</a></li>
+            <li><a href="draftass.html">Register</a></li>
+            <li><a href="hoverdisplay.html">Register</a></li>
+        </ul>
+        <div class="forall">
+            <div class="up">
+                <img src="image/value max.png" alt="">
+                <h4>
+                    OPERANIYI FX COPY
+                </h4>
+            </div>
+            <div class="down">
+                <ul>
+                    <li>HOME</li>
+                    <li> SMILE</li>
+                    <li>NECO</li>
+                    <li>SIMPLIFIED</li>
+                    <li>INNOVATION-PMI</li>
+                    <li class="up">
+                        NETFLIX
+                        <ul class="ok">
+                            <li>movies</li>
+                            <li>young star</li>
+                            <li>comedy</li>
+                            <li>love show</li>
+                            <li>songs</li>
+                            <li>music</li>
+                        </ul>
+                    </li>
+                    <li>CODEACADEMY</li>
+                    <li>OUTLOOK</li>
+                    <button>LOGIN</button>
+                </ul>
+            </div>    
+        </div> 
+    </body>
+</html>
